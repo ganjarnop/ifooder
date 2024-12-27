@@ -663,15 +663,18 @@ footer .box-footer .box:nth-child(3) i {
         background-color: #fff;
         flex-direction: column;
         top: 30%;
-        left: 100%;
+        left: 50%;
         width: 200px;
         height: 200px;
         justify-content: space-evenly;
         transition: all 0.3s ease;
+        opacity: 0;
+        border-radius: 1px;
     }
 
     .header .box-header .box:nth-child(1) .menu-nav .menu.menu-active {
-        left: 50%;
+        left: 25%;
+        opacity: 1;
     }
 
     .header .box-header .box:nth-child(1) ul li {
@@ -837,6 +840,10 @@ footer .box-footer .box:nth-child(3) i {
 
     .apart .box-apart .box img {
         height: 55%;
+    }
+
+    .bg-fixed {
+        height: 50vh;
     }
 
     .about .box-about .box:nth-child(2) p {
